@@ -37,6 +37,8 @@ make run
 ```bash
 poetry run python poetry_project/main.py
 ```
+
+Pour voir le site rdv ici : [localhost:5000](http://localhost:5000)
 ## Pour aller plus loin
 ### Les tests unitaires
 1. Lance la commande suivante :
