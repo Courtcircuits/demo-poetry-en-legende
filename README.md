@@ -1,16 +1,11 @@
 # Demo Poetry - DO3
 ----
 ## Sommaire :
-- [[#Pré-requis :|Pré-requis :]]
-- [[#Installer les dépendances|Installer les dépendances]]
-	- [[#Installer les dépendances#Avec make|Avec make]]
-	- [[#Installer les dépendances#Avec poetry|Avec poetry]]
-- [[#Lancer le projet|Lancer le projet]]
-	- [[#Lancer le projet#Avec make|Avec make]]
-	- [[#Lancer le projet#Avec poetry|Avec poetry]]
-- [[#Pour aller plus loin|Pour aller plus loin]]
-	- [[#Pour aller plus loin#Les tests unitaires|Les tests unitaires]]
-- [[#Notes|Notes]]
+- [Pré-requis](##-pré-requis)
+- [Installer les dépendances](##-installer-les-dépendances)
+- [Pour aller plus loin](##-pour-aller-plus-loin)
+
+
 ## Pré-requis :
 - Installer poetry
 ```bash
@@ -49,7 +44,7 @@ poetry run python poetry_project/main.py
 make test
 ```
 2. Analyse le Makefile pour comprendre ce que fait la commande et pourquoi elle ne fonctionne pas
-*Indice : regarde aussi le fichier `pyproject.toml`*
+*Indice : regarde aussi le fichier `pyproject.toml`, tu devras peut être utiliser la commande `... add ...`*
 3. Fait en sorte que le test passe au vert
 4. Enfin rends toi sur cette page [poetry - managing dependencies](https://python-poetry.org/docs/managing-dependencies/#optional-groups) et trouve un moyen d'installer pytest avec la commande : 
 ```bash
