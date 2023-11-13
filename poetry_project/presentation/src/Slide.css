@@ -1,0 +1,34 @@
+/* import font geist assets/Geist-Regular.otf */
+
+@font-face {
+  font-family: 'Geist';
+  src: url(assets/Geist-Regular.otf);
+}
+
+h1 {
+  font-family: 'Geist';
+  font-size: 3em;
+  color: #282c34;
+  width: 100%;
+  text-align: center;
+}
+
+li,p,a{
+  font-family: 'Geist';
+  font-size: 2em;
+}
+
+q{
+  font-family: 'Geist';
+  margin: 1em 0.5em;
+  font-size: 1.5em;
+}
+
+.slide-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:70vh;
+  font-family: 'Geist';
+  color: 'red';
+}
