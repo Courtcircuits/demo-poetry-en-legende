@@ -1,13 +1,16 @@
 # Demo Poetry - DO3
 ----
 ## Sommaire :
-
-```table-of-contents
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-maxLevel: 0 # Include headings up to the speficied level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
+- [[#Pré-requis :|Pré-requis :]]
+- [[#Installer les dépendances|Installer les dépendances]]
+	- [[#Installer les dépendances#Avec make|Avec make]]
+	- [[#Installer les dépendances#Avec poetry|Avec poetry]]
+- [[#Lancer le projet|Lancer le projet]]
+	- [[#Lancer le projet#Avec make|Avec make]]
+	- [[#Lancer le projet#Avec poetry|Avec poetry]]
+- [[#Pour aller plus loin|Pour aller plus loin]]
+	- [[#Pour aller plus loin#Les tests unitaires|Les tests unitaires]]
+- [[#Notes|Notes]]
 ## Pré-requis :
 - Installer poetry
 ```bash
