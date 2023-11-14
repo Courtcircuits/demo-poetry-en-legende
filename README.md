@@ -11,6 +11,16 @@
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 ```
+Puis ajoute cette ligne à votre `.zshrc` ou `.bashrc`
+```
+export PATH="$HOME/.local/bin:$PATH"
+```
+et source le fichier :
+```bash
+source ~/.bashrc
+# ou
+source ~/.zshrc
+```
 - Installer make
 ```bash
 make --version # pour vérifier si make est présent sur le système
